@@ -4,9 +4,9 @@ function navigate(){
     var a1=document.getElementsByClassName('nav_links');
     for(var i=0;i<a1.length;i++){
         if(time%2==1){
-            a1[i].style.opacity="100%";
+            a1[i].style.left="0px";
         }else{
-            a1[i].style.opacity="0%";
+            a1[i].style.left="-140px";
         }
     }
                 
